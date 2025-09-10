@@ -6,7 +6,7 @@ const Header = () => {
     <header className="bg-gray-900 text-white p-4">
       <div className="container mx-auto flex justify-between items-center">
         <Link to="/" className="text-2xl font-bold text-[#4c9adf]">
-          MyShop
+          My Tsx App
         </Link>
 
         <nav className="flex gap-6">
@@ -21,14 +21,14 @@ const Header = () => {
             Products
           </NavLink>
           <NavLink
-            to="/user"
+            to="/foods"
             className={({ isActive }) =>
               `hover:text-blue-400 ${
                 isActive ? "text-blue-400 font-semibold" : ""
               }`
             }
           >
-            User
+            Foods
           </NavLink>
         </nav>
       </div>
