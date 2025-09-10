@@ -3,7 +3,7 @@ import { memo } from 'react';
 const Home = () => {
   return (
     <div className="Index">
-      <h2>Index</h2>
+      <h2>asd</h2>
     </div>
   );
 };
