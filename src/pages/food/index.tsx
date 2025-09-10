@@ -7,7 +7,6 @@ import type { IRecipe, IRecipeResponse } from "../../types";
 const Food = () => {
   const [data, setData] = useState<IRecipe[]>([]);
   const [loading, setLoading] = useState(true);
-  const [error, setError] = useState<null | any>(null);
 
   useEffect(() => {
     setLoading(true);
