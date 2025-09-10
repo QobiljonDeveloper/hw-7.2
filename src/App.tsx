@@ -1,8 +1,7 @@
+import AppRouter from "./pages/index";
 
 const App = () => {
-  return (
-    <div>App</div>
-  )
-}
+  return <AppRouter />;
+};
 
-export default App
+export default App;
